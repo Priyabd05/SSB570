@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background-image: url(../images/pexels-pixabay-355829.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 100px 0;
+    background-attachment: fixed;
+}
+.heading{
+
+color: #fff;
+
+text-align: center;
+
+font-size: 25px;
+
+margin-bottom: 50px;
+}
+
+.contact_from {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.contact_info{
+
+width: 48%;
+}
+
+
+.contact_info h3{
+
+color: #fff;
+
+font-size: 25px;
+
+margin-bottom: 30px;
+}
+
+
+.info_box{
+
+display: flex;
+
+margin-bottom: 30px;
+}
+
+
+.icon{
+
+color: #fff;
+
+width: 30px;
+
+font-size: 25px;
+}
+
+
+.info{
+
+color: #fff;
+}
+
+
+.info h4{
+    
+font-size: 22px;
+color: #ffffffd9;
+    
+/* line-height: 0; */
+}
+.info p{
+    
+margin-top: 8px;
+color: #fffffff7;
+}
+
+.main_form{
+
+width: 48%;
+}
+
+
+.from{
+
+background: #fff;
+
+padding: 30px;
+
+border-radius: 10px;
+}
+
+
+.form h2{
+    margin-bottom: 30px;
+
+}
+
+
+.from form input{
+
+width: 100%;
+
+margin-bottom: 15px;
+
+padding: 15px 0 15px 10px;
+
+border: 1px solid #dedede;
+}
+
+
+.from form input[type="submit"]{
+    width: auto;
+    padding: 0;
+    background:#007bff;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 7px;
+    font-size: 16px;
+
+}
+
+.from form textarea{
+    width: 100%;
+
+    margin-bottom: 15px;
+    
+    padding: 15px 0 15px 10px;
+    
+    border: 1px solid #dedede;
+}
+
+
+.from form input:focus .form form textarea:focus{ 
+
+    outline: none;
+    box-shadow:0px 1px 3px  1px #00000021;
+
+}
